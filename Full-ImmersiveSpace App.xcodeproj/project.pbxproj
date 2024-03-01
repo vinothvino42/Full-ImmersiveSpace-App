@@ -7,22 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D13A2AA82B91725A002E6DAB /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = D13A2AA72B91725A002E6DAB /* RealityKitContent */; };
-		D13A2AAA2B91725A002E6DAB /* Full_ImmersiveSpace_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13A2AA92B91725A002E6DAB /* Full_ImmersiveSpace_AppApp.swift */; };
-		D13A2AAC2B91725A002E6DAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13A2AAB2B91725A002E6DAB /* ContentView.swift */; };
+		D13A2AAA2B91725A002E6DAB /* Full_ImmersiveSpace_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13A2AA92B91725A002E6DAB /* Full_ImmersiveSpace_App.swift */; };
+		D13A2AAC2B91725A002E6DAB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13A2AAB2B91725A002E6DAB /* HomeView.swift */; };
 		D13A2AAE2B91725A002E6DAB /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13A2AAD2B91725A002E6DAB /* ImmersiveView.swift */; };
-		D13A2AB02B91725A002E6DAB /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = D13A2AAF2B91725A002E6DAB /* ImageBasedLighting.skybox */; };
 		D13A2AB22B91725B002E6DAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13A2AB12B91725B002E6DAB /* Assets.xcassets */; };
 		D13A2AB52B91725B002E6DAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13A2AB42B91725B002E6DAB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D13A2AA22B91725A002E6DAB /* Full-ImmersiveSpace App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Full-ImmersiveSpace App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D13A2AA62B91725A002E6DAB /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		D13A2AA92B91725A002E6DAB /* Full_ImmersiveSpace_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Full_ImmersiveSpace_AppApp.swift; sourceTree = "<group>"; };
-		D13A2AAB2B91725A002E6DAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D13A2AA92B91725A002E6DAB /* Full_ImmersiveSpace_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Full_ImmersiveSpace_App.swift; sourceTree = "<group>"; };
+		D13A2AAB2B91725A002E6DAB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D13A2AAD2B91725A002E6DAB /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
-		D13A2AAF2B91725A002E6DAB /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
 		D13A2AB12B91725B002E6DAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D13A2AB42B91725B002E6DAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D13A2AB62B91725B002E6DAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,7 +29,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D13A2AA82B91725A002E6DAB /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				D13A2AA42B91725A002E6DAB /* Full-ImmersiveSpace App */,
-				D13A2AA52B91725A002E6DAB /* Packages */,
 				D13A2AA32B91725A002E6DAB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,23 +54,14 @@
 		D13A2AA42B91725A002E6DAB /* Full-ImmersiveSpace App */ = {
 			isa = PBXGroup;
 			children = (
-				D13A2AA92B91725A002E6DAB /* Full_ImmersiveSpace_AppApp.swift */,
-				D13A2AAB2B91725A002E6DAB /* ContentView.swift */,
+				D13A2AA92B91725A002E6DAB /* Full_ImmersiveSpace_App.swift */,
+				D13A2AAB2B91725A002E6DAB /* HomeView.swift */,
 				D13A2AAD2B91725A002E6DAB /* ImmersiveView.swift */,
-				D13A2AAF2B91725A002E6DAB /* ImageBasedLighting.skybox */,
 				D13A2AB12B91725B002E6DAB /* Assets.xcassets */,
 				D13A2AB62B91725B002E6DAB /* Info.plist */,
 				D13A2AB32B91725B002E6DAB /* Preview Content */,
 			);
 			path = "Full-ImmersiveSpace App";
-			sourceTree = "<group>";
-		};
-		D13A2AA52B91725A002E6DAB /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				D13A2AA62B91725A002E6DAB /* RealityKitContent */,
-			);
-			path = Packages;
 			sourceTree = "<group>";
 		};
 		D13A2AB32B91725B002E6DAB /* Preview Content */ = {
@@ -104,7 +89,6 @@
 			);
 			name = "Full-ImmersiveSpace App";
 			packageProductDependencies = (
-				D13A2AA72B91725A002E6DAB /* RealityKitContent */,
 			);
 			productName = "Full-ImmersiveSpace App";
 			productReference = D13A2AA22B91725A002E6DAB /* Full-ImmersiveSpace App.app */;
@@ -150,7 +134,6 @@
 			files = (
 				D13A2AB22B91725B002E6DAB /* Assets.xcassets in Resources */,
 				D13A2AB52B91725B002E6DAB /* Preview Assets.xcassets in Resources */,
-				D13A2AB02B91725A002E6DAB /* ImageBasedLighting.skybox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,8 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D13A2AAC2B91725A002E6DAB /* ContentView.swift in Sources */,
-				D13A2AAA2B91725A002E6DAB /* Full_ImmersiveSpace_AppApp.swift in Sources */,
+				D13A2AAC2B91725A002E6DAB /* HomeView.swift in Sources */,
+				D13A2AAA2B91725A002E6DAB /* Full_ImmersiveSpace_App.swift in Sources */,
 				D13A2AAE2B91725A002E6DAB /* ImmersiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,13 +346,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D13A2AA72B91725A002E6DAB /* RealityKitContent */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RealityKitContent;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D13A2A9A2B91725A002E6DAB /* Project object */;
 }
